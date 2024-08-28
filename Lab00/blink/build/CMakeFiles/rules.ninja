@@ -81,7 +81,7 @@ rule ASM_EXECUTABLE_LINKER__bs2_default_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/aymanhabib/.pico-sdk/cmake/v3.28.6/CMake.app/Contents/bin/cmake --regenerate-during-build -S"/Users/aymanhabib/Documents/Masters_ECE/Avanced Embedded Systems/Lab00/blink" -B"/Users/aymanhabib/Documents/Masters_ECE/Avanced Embedded Systems/Lab00/blink/build"
+  command = /Users/aymanhabib/.pico-sdk/cmake/v3.28.6/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/aymanhabib/Documents/Masters_ECE/ECE_6785/Lab00/blink -B/Users/aymanhabib/Documents/Masters_ECE/ECE_6785/Lab00/blink/build
   description = Re-running CMake...
   generator = 1
 

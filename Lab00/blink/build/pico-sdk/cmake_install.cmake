@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aymanhabib/Documents/Masters_ECE/Avanced Embedded Systems/Lab00/blink/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/aymanhabib/Documents/Masters_ECE/ECE_6785/Lab00/blink/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aymanhabib/Documents/Masters_ECE/Avanced Embedded Systems/Lab00/blink/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/aymanhabib/Documents/Masters_ECE/ECE_6785/Lab00/blink/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aymanhabib/Documents/Masters_ECE/Avanced Embedded Systems/Lab00/blink/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/aymanhabib/Documents/Masters_ECE/ECE_6785/Lab00/blink/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 
